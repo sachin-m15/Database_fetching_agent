@@ -1,0 +1,20 @@
+# Ignore all .env files, as they contain secrets
+.env
+.env.*
+
+# But do track example/template files
+!.env.example
+!.env.sample
+
+# --- Python ---
+# Ignore virtual environment directories
+venv/
+.venv/
+env/
+virtualenv/
+
+# Ignore Python cache and compiled files
+_pycache_/
+*.pyc
+.pytest_cache/
+.mypy_cache/

@@ -1,0 +1,22 @@
+/* Use Inter font */
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for chat */
+#chat-window::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-window::-webkit-scrollbar-track {
+    background: #1e293b; /* slate-800 */
+}
+
+#chat-window::-webkit-scrollbar-thumb {
+    background: #475569; /* slate-600 */
+    border-radius: 4px;
+}
+
+#chat-window::-webkit-scrollbar-thumb:hover {
+    background: #64748b; /* slate-500 */
+}
